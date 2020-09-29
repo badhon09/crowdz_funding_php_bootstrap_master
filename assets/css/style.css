@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;900&display=swap');
+
+*{
+    font-family: 'Poppins',sans-serif;
+    
+}
+
+.navbar{
+    background-color: #0D0640;
+
+    
+}
+.header-menu .navbar-brand{
+    padding: 5px 35px;
+    
+    
+} 
+.navbar-nav .nav-item .nav-link{
+    color: white;
+}
+
+.navbar-nav .nav-item .nav-link:hover{
+    color: red;
+    font-size: 20px;
+
+}
+.nav-item .button{
+    margin-left: 10px;
+}
+.btn-log{
+    padding-right: 20px;
+}
+.header-menu .navbar-nav{
+    padding: 5px 35px;
+    
+    
+} 
+.nav-link:hover{
+    color: blue;
+}
+.header-menu .nav-link{
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+
+/*about*/
+
+.about{
+    height: 500px;
+	background-image: url(../images/fundbackpic.jpg);
+	background-size: contain;
+	background-position: center;
+	box-shadow: inset 0 0 0 1000px rgba(0,0,0,.6);
+	display: flex;
+    flex-direction: column;
+    padding-top: 3em;
+}
+.about-text-area{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.about-text-area h1{
+    color: white;
+}
+.about img{
+    margin-left: 80px;
+}
+
+.feature-funds{
+   
+    padding-top: 3em;
+    padding-bottom: 3em;
+    background-color: #EAEAEA;
+
+   
+}
+.feature-funds h2{
+    color: black;
+}
+.postcard{
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.25);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.25);
+box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.25);
+}
+
+.foot{
+    background: #0D0640;
+    box-shadow: inset 0 0 0 1000px rgba(0,0,0,.6);
+
+    padding-top: 3em;
+
+}
+.foot h5{
+    color: white;
+}
+.address-text{
+    color: white;
+}
+.navname{
+    color: white;
+}
+
+
+.cardrow{
+    justify-content: center;
+}
+
+.card{
+   margin: 10px;
+}
+
+
+
+.profile-pic{
+    height: 300px;
+    width: 300px;
+    padding-left: 4em;
+}
+
+.post-details{
+
+    background: #EAEAEA ;
+}
+.reg{
+    width: 500px;
+}
+
+/* progress bar */
+
+
